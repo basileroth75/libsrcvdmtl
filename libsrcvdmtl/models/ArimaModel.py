@@ -2,7 +2,7 @@ from multiprocessing import Pool, cpu_count
 import pandas as pd
 import pyflux as pf
 from sklearn.metrics import mean_squared_error
-from src.models.Model import Model
+from libsrcvdmtl.models.Model import Model
 
 
 class ArimaModel(Model):

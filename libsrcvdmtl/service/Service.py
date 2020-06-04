@@ -1,5 +1,5 @@
-from src.models.Model import Model
-from src.data.DataSet import DataSet
+from libsrcvdmtl.models.Model import Model
+from libsrcvdmtl.models.DataSet import DataSet
 import pandas as pd
 
 
