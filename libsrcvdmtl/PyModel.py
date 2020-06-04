@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.metrics import mean_squared_error
-from libsrcvdmtl.models.Model import Model
+from libsrcvdmtl.Model import Model
 
 
 class PyModel(Model):
