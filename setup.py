@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'libsrcvdmtl',         # How you named your package folder (MyLib)
   packages = ['libsrcvdmtl'],   # Chose the same as "name"
-  version = 'v1.4',      # Start with a small number and increase it with every change you make
+  version = 'v1.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Library using the src folder for the Premiers Repondants Project',   # Give a short description about your library
   author = 'broth',                   # Type in your name
   author_email = 'basile.roth@montreal.ca',      # Type in your E-Mail
   url = 'https://github.com/basileroth75/libsrcvdmtl',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/basileroth75/libsrcvdmtl/archive/v1.4.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/basileroth75/libsrcvdmtl/archive/v1.5.tar.gz',    # I explain this later on
   keywords = ['SRC', 'VDMTL', 'LIBRARY'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
